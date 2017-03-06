@@ -11,7 +11,7 @@ npm i -g timeout-cli
 ## Usage:
 
 ```
-Usage: timeout-cli -- some-cmd arg1 arg2 arg3
+Usage: timeout -- some-cmd arg1 arg2 arg3
 Execute a command and exit if it doesn't terminate in a certain amount of time
 
 Options:
