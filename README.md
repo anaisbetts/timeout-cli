@@ -5,7 +5,6 @@ This utility reimplements GNU timeout, but for operating systems that don't supp
 ## Usage:
 
 ```
-~\code\paulcbetts\timeout-cli [master]> .\node_modules\.bin\ts-node .\src\timeout-cli.ts --help
 Usage: timeout-cli -- some-cmd 1 2 3
 Execute a command and exit if it doesn't terminate in a certain amount of time
 
