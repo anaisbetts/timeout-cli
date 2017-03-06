@@ -2,7 +2,7 @@
   "name": "timeout-cli",
   "version": "0.1.1",
   "description": "An Rx-version of child_process.spawn",
-  "scripts": {
+  "bin": {
     "timeout": "lib/src/index.js"
   },
   "repository": {
