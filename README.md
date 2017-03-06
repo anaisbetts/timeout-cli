@@ -2,10 +2,16 @@
 
 This utility reimplements GNU timeout, but for operating systems that don't support it, like macOS and Windows. 
 
+## To Install:
+
+```sh
+npm i -g timeout-cli
+```
+
 ## Usage:
 
 ```
-Usage: timeout-cli -- some-cmd 1 2 3
+Usage: timeout-cli -- some-cmd arg1 arg2 arg3
 Execute a command and exit if it doesn't terminate in a certain amount of time
 
 Options:
