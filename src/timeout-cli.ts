@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as yargs from 'yargs';
 import * as debug from 'debug';
 import * as argvSplit from 'argv-split';
