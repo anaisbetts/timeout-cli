@@ -1,14 +1,9 @@
 {
   "name": "timeout-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An Rx-version of child_process.spawn",
   "scripts": {
-    "doc": "echo \"esdoc may not work correctly\" && esdoc -c ./esdoc.json",
-    "compile": "tsc",
-    "prepublish": "npm run compile",
-    "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\"",
-    "test": "mocha --compilers ts:ts-node/register ./test/*",
-    "build": "npm-run-all compile lint test"
+    "timeout": "lib/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +18,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/paulcbetts/timeout-cli/issues"
-  },
-  "scripts": {
-    "timeout": "lib/src/index.js"
   },
   "main": "lib/src/index.js",
   "typings": "lib/src/index.d.ts",
