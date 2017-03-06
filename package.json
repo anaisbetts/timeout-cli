@@ -28,13 +28,19 @@
   "typings": "lib/src/index.d.ts",
   "homepage": "https://github.com/paulcbetts/timeout-cli",
   "dependencies": {
-    "debug": "^2.6.1"
+    "argv-split": "^1.0.1",
+    "debug": "^2.6.1",
+    "rxjs": "^5.2.0",
+    "spawn-rx": "^2.0.10",
+    "yargs": "^7.0.1"
   },
   "devDependencies": {
     "@types/chai": "^3.4.35",
     "@types/chai-as-promised": "0.0.29",
+    "@types/debug": "0.0.29",
     "@types/mocha": "^2.2.39",
     "@types/node": "^7.0.5",
+    "@types/yargs": "^6.6.0",
     "babel-register": "^6.23.0",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
