@@ -1,6 +1,6 @@
 {
   "name": "timeout-cli",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "GNU timeout but cross-platform",
   "bin": {
     "timeout": "lib/src/timeout-cli.js"
