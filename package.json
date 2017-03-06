@@ -5,6 +5,14 @@
   "bin": {
     "timeout": "lib/src/timeout-cli.js"
   },
+  "scripts": {
+    "doc": "echo \"esdoc may not work correctly\" && esdoc -c ./esdoc.json",
+    "compile": "tsc",
+    "prepublish": "npm run compile",
+    "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "test": "mocha --compilers ts:ts-node/register ./test/*",
+    "build": "npm-run-all compile lint test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/paulcbetts/timeout-cli"
