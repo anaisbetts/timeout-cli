@@ -1,7 +1,7 @@
 {
   "name": "timeout-cli",
   "version": "0.3.0",
-  "description": "An Rx-version of child_process.spawn",
+  "description": "GNU timeout but cross-platform",
   "bin": {
     "timeout": "lib/src/timeout-cli.js"
   },
