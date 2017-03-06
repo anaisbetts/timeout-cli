@@ -48,7 +48,7 @@ const multipliers = {
 };
 
 const numPart = /^[0-9]+(\.[0-9]+)?/;
-function parseTime(time: string): number {
+export function parseTime(time: string): number {
   const m = time.match(numPart);
   if (!m || !m[0]) throw new Error(`${time} can't be parsed!`);
 
@@ -59,7 +59,7 @@ function parseTime(time: string): number {
   return parseFloat(m[0]) * multiplier * 1000/*ms*/;
 }
 
-function spawnNoisyDetached(cmd: string, args: string[], opts?: any): Observable<undefined> {
+export function spawnNoisyDetached(cmd: string, args: string[], opts?: any): Observable<undefined> {
   let ret = spawnDetached(cmd, args, opts).publish();
 
   ret.subscribe(

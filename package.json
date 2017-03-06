@@ -24,6 +24,9 @@
   "bugs": {
     "url": "https://github.com/paulcbetts/timeout-cli/issues"
   },
+  "scripts": {
+    "timeout": "lib/src/index.js"
+  },
   "main": "lib/src/index.js",
   "typings": "lib/src/index.d.ts",
   "homepage": "https://github.com/paulcbetts/timeout-cli",
